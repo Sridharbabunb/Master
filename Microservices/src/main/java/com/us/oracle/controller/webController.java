@@ -16,9 +16,6 @@ dasdsad
 	dasdsa
 	dasdsa
 	    return i;
-    sadjasljdsad
-	    dasdasdsa
-	    dasdsad
 	    dadsadi
     }
 }

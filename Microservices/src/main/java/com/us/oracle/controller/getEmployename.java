@@ -13,10 +13,8 @@ import java.util.List;
 @RestController
 public class getEmployename
 {
-    @RequestMapping("/getEmployename")
     public List<String> index() {
         List<String> strings= new ArrayList<>();
-        strings.add("Sridhar");
         strings.add("Raghu");
         return strings;
     }
