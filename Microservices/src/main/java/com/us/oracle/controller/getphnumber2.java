@@ -11,9 +11,9 @@ import java.util.List;
  */
 
     @RestController
-    public class getphnumber
+    public class getphnumber2
     {
-        @RequestMapping("/getEmployephno")
+        @RequestMapping("/getEmployephno2")
         public List<String> index() {
             List<String> strings= new ArrayList<>();
             strings.add("");
