@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-public class webController {
+public class test {
 
-    @RequestMapping("/webcenter")
-    public String index() {
-        return "Greetings from Spring Boot!";
+
+        @RequestMapping("/web1")
+        public String index() {
+            return "Greetings from Spring Boot!";
+
     }
+
 }
-
-
