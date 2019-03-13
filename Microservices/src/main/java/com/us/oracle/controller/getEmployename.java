@@ -17,7 +17,6 @@ public class getEmployename
     public List<String> index() {
         List<String> strings= new ArrayList<>();
         strings.add("Sridhar");
-        strings.add("Babu");
         strings.add("Raghu");
         return strings;
     }
