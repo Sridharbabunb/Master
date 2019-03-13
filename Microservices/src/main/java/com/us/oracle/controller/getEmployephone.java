@@ -1,0 +1,25 @@
+package com.us.oracle.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by snb on 3/13/2019.
+ */
+
+@RestController
+public class getEmployephone
+{
+    @RequestMapping("/getEmployePhno")
+    public List<String> index() {
+        List<String> strings= new ArrayList<>();
+        strings.add("0123456789");
+        strings.add("666667345");
+        strings.add("567688889");
+        return strings;
+    }
+}
+
