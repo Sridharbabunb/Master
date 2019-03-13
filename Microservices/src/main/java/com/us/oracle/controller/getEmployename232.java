@@ -1,6 +1,5 @@
 package com.us.oracle.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -11,14 +10,21 @@ import java.util.List;
  */
 
 @RestController
-public class getEmployephone
+public class getEmployename232
 {
-    @RequestMapping("/getEmployePhno")
     public List<String> index() {
-        strings.add("666667345");
-
         List<String> strings= new ArrayList<>();
-        jjjjjstrings.add("666667345");
+        Badsaddasdsadsadasddasdbu
+                Badsaddasdsadsadasddasdbu
+        Badsaddasdsadsadasddasdbu
+        strings.add("Raghu");
+        return strings;
+    }strings.add("Raghu");
+    return strings;
+}
+
+        strings.a("Badsaddasdsadsadasddasdbu");
+        strings.add("Raghu");
         return strings;
     }
 }
