@@ -16,6 +16,8 @@ public class getEmployephone
     @RequestMapping("/getEmployePhno")
     public List<String> index() {
         strings.add("666667345");
+        List<String> strings= new ArrayList<>();
+        jjjjjstrings.add("666667345");
         return strings;
     }
 }
