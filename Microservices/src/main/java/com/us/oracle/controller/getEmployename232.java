@@ -1,6 +1,5 @@
 package com.us.oracle.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -11,7 +10,7 @@ import java.util.List;
  */
 
 @RestController
-public class getEmployename
+public class getEmployename232
 {
     public List<String> index() {
         List<String> strings= new ArrayList<>();
