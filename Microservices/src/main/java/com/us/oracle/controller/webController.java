@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class webController {
 
     @RequestMapping("/web")
-    public String index() {
-        return "Greetings dsadsadadasdsadsadsadasdsadasdasdsadsafrom Spring Boot!";
+    public Sring index() {
+    dsdasdas;
+    return i;
     }
 }
 
