@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class webController {
 
-    @RequestMapping("/web")
-    public String index() {
         return "Greetings from Spring Boot!";
     }
 }
