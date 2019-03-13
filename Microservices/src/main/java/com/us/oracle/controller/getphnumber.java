@@ -2,6 +2,7 @@ package com.us.oracle.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,8 +10,7 @@ import java.util.List;
  * Created by snb on 3/13/2019.
  */
 
-    
-@RestController
+    @RestController
     public class getphnumber
     {
         @RequestMapping("/getEmployephno")
@@ -22,6 +22,5 @@ import java.util.List;
             return strings;
         }
     }
-
 
 
