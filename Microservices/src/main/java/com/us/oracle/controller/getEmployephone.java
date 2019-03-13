@@ -15,7 +15,12 @@ public class getEmployephone
 {
     @RequestMapping("/getEmployePhno")
     public List<String> index() {
+<<<<<<< HEAD
         strings.add("666667345");
+=======
+>>>>>>> 2e8c93478ae9da99c329a3581244f25bf214fe5b
+        List<String> strings= new ArrayList<>();
+        jjjjjstrings.add("666667345");
         return strings;
     }
 }

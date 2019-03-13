@@ -11,10 +11,15 @@ import java.util.List;
  */
 
 @RestController
-public class getEmployephone
+acaublic class getEmployephone
 {
-    @RequestMapping("/getEmployePhno1")
-    public List<String> index() {
+dsadsadas
+ddasdsa
+dadsadasdas
+        List<String> strings= new ArrayList<>();
+        strings.add("8993232234");
+        return strings;
+
         List<String> strings= new ArrayList<>();
         strings.add("8993232234");
         return strings;
