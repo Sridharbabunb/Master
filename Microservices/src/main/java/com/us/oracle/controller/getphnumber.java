@@ -17,8 +17,6 @@ import java.util.List;
         public List<String> index() {
             List<String> strings= new ArrayList<>();
             strings.add("safdsadadsadsasa");
-            strings.add("9863456789");
-            strings.add("98463579091");
             return strings;
         }
     }
