@@ -16,8 +16,8 @@ public class getEmployename
     @RequestMapping("/getEmployename")
     public List<String> index() {
         List<String> strings= new ArrayList<>();
-        strings.add("Sridhar");
-        strings.add("Babu");
+        strings.add("dhar");
+        strings.a("Babu");
         strings.add("Raghu");
         return strings;
     }
